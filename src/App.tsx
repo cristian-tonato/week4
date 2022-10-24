@@ -1,13 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Sample } from './components/Sample';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Sample></Sample>
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <p className='warning'>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <a
